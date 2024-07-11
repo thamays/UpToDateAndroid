@@ -44,7 +44,7 @@ import com.thamays.uptodateandroid.ui.theme.UpToDateAndroidTheme
 import java.text.NumberFormat
 import kotlin.math.ceil
 
-class UiAndStateActivity : ComponentActivity() {
+class UiAndStateActivityV1 : ComponentActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

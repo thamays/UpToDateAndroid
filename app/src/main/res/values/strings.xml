@@ -20,4 +20,14 @@
     <string name="round_up_tip">Round up tip?</string>
     <string name="tip_amount">Tip Amount: %s</string>
 
+    <string name="wallpaper_title_1">Wallpaper Title One</string>
+    <string name="wallpaper_title_2">Wallpaper Title Two</string>
+    <string name="wallpaper_title_3">Wallpaper Title Three</string>
+    <string name="wallpaper_name_1">Name One</string>
+    <string name="wallpaper_name_2">Name Two</string>
+    <string name="wallpaper_name_3">Name Three</string>
+    <string name="wallpaper_year_1">2021</string>
+    <string name="wallpaper_year_2">2022</string>
+    <string name="wallpaper_year_3">2023</string>
+
 </resources>
