@@ -42,6 +42,21 @@ fun trickOrTreat3(isTrick: Boolean, extraTreat: ((Int) -> String)?): () -> Unit 
     }
 }
 
+fun trickOrTreat4(extraTreat: (Int) -> String) {
+    println(extraTreat(6))
+}
+
+fun trickOrTreat5(extraTreat: (a: Int, b: Int) -> String) {
+    println(extraTreat(6, 7))
+}
+
+fun trickOrTreat6(isTrick: Boolean, extraTreat: (a: Int, b: Int) -> String) {
+    if (isTrick)
+        println(extraTreat(1, 2))
+    else
+        println(extraTreat(3, 4))
+}
+
 fun main() {
 
     // Store the function in a variable
@@ -86,5 +101,28 @@ fun main() {
 
     repeat(4) {
         treatFunction5()
+    }
+
+    println("------------------")
+    trickOrTreat4 {
+        "$it quarters"
+    }
+
+    println("------------------")
+    trickOrTreat5 { a, b ->
+        "$a and $b quarters"
+    }
+
+    println("------------------")
+    trickOrTreat6(false) { a, b ->
+        "$a and $b"
+    }
+
+    fun name(b: Boolean, extra: (i: Int, j: Int) -> Int) {
+        if (b) extra(1, 2) else extra(3, 4)
+    }
+
+    name(false) { i, j ->
+        i + j
     }
 }
