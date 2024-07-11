@@ -13,10 +13,11 @@
         android:theme="@style/Theme.UpToDateAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".coroutines.CoroutinesActivity"
+            android:name=".unit_02.UiAndStateActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.UpToDateAndroid">
+            android:theme="@style/Theme.UpToDateAndroid"
+            tools:ignore="RedundantLabel">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
