@@ -1,4 +1,4 @@
-package com.thamays.uptodateandroid.unit_03.woof.data
+package com.thamays.uptodateandroid.unit_03.theming.data
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes

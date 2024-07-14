@@ -1,4 +1,4 @@
-package com.thamays.uptodateandroid.unit_03.woof
+package com.thamays.uptodateandroid.unit_03.theming
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -48,8 +48,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import com.thamays.uptodateandroid.R
 import com.thamays.uptodateandroid.ui.theme.WoofTheme
-import com.thamays.uptodateandroid.unit_03.woof.data.Dog
-import com.thamays.uptodateandroid.unit_03.woof.data.dogs
+import com.thamays.uptodateandroid.unit_03.theming.data.Dog
+import com.thamays.uptodateandroid.unit_03.theming.data.dogs
 
 class ThemingActivity : ComponentActivity() {
 

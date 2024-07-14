@@ -1,4 +1,4 @@
-package com.thamays.uptodateandroid.unit_03.affirmations
+package com.thamays.uptodateandroid.unit_03.list
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -30,8 +30,8 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.thamays.uptodateandroid.ui.theme.UpToDateAndroidTheme
-import com.thamays.uptodateandroid.unit_03.affirmations.data.Datasource
-import com.thamays.uptodateandroid.unit_03.affirmations.model.Affirmation
+import com.thamays.uptodateandroid.unit_03.list.data.Datasource
+import com.thamays.uptodateandroid.unit_03.list.model.Affirmation
 
 class ScrollableListActivity : ComponentActivity() {
 

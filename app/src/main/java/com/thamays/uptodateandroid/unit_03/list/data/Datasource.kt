@@ -1,8 +1,8 @@
-package com.thamays.uptodateandroid.unit_03.affirmations.data
+package com.thamays.uptodateandroid.unit_03.list.data
 
 import com.thamays.uptodateandroid.R
-import com.thamays.uptodateandroid.unit_03.affirmations.model.Affirmation
-import com.thamays.uptodateandroid.unit_03.affirmations.model.Topic
+import com.thamays.uptodateandroid.unit_03.list.model.Affirmation
+import com.thamays.uptodateandroid.unit_03.list.model.Topic
 
 object Datasource {
     fun loadAffirmations(): List<Affirmation> {

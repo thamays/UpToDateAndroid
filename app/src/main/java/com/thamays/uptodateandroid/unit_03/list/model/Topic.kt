@@ -1,4 +1,4 @@
-package com.thamays.uptodateandroid.unit_03.affirmations.model
+package com.thamays.uptodateandroid.unit_03.list.model
 
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
