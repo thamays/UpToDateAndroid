@@ -136,7 +136,7 @@ fun DogItem(
             modifier = Modifier
                 .animateContentSize(
                     animationSpec = spring(
-                        dampingRatio = Spring.DampingRatioNoBouncy,
+                        dampingRatio = Spring.DampingRatioHighBouncy,
                         stiffness = Spring.StiffnessMedium
                     )
                 )

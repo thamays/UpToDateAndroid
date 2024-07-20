@@ -83,4 +83,29 @@
     <string name="share">Share</string>
     <string name="share_text">I\'ve clicked %1$d Desserts for a total of $%2$d #AndroidDessertClicker</string>
     <string name="sharing_not_available">Sharing Not Available</string>
+
+    <string name="instructions">Unscramble the word using all the letters.</string>
+    <string name="skip">Skip</string>
+    <string name="submit">Submit</string>
+    <string name="score">Score: %d</string>
+    <string name="word_count">%d/10</string>
+    <string name="enter_your_word">Enter your word</string>
+    <string name="congratulations">Congratulations!</string>
+    <string name="you_scored">"You scored: %d"</string>
+    <string name="exit">Exit</string>
+    <string name="play_again">Play Again</string>
+    <string name="wrong_guess">Wrong Guess!</string>
+
+    <string name="hero1">Nick the Night and Day</string>
+    <string name="description1">The Jetpack Hero</string>
+    <string name="hero2">Reality Protector</string>
+    <string name="description2">Understands the absolute truth</string>
+    <string name="hero3">Andre the Giant</string>
+    <string name="description3">Mimics the light and night to blend in</string>
+    <string name="hero4">Benjamin the Brave</string>
+    <string name="description4">Harnesses the power of canary to develop bravely</string>
+    <string name="hero5">Magnificent Maru</string>
+    <string name="description5">Effortlessly glides in to save the day</string>
+    <string name="hero6">Dynamic Yasmine</string>
+    <string name="description6">Ability to shift to any form and energize</string>
 </resources>

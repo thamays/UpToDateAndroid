@@ -2,6 +2,7 @@ package com.thamays.uptodateandroid.unit_03.list.data
 
 import com.thamays.uptodateandroid.R
 import com.thamays.uptodateandroid.unit_03.list.model.Affirmation
+import com.thamays.uptodateandroid.unit_03.list.model.Hero
 import com.thamays.uptodateandroid.unit_03.list.model.Topic
 
 object Datasource {
@@ -35,5 +36,38 @@ object Datasource {
         Topic(R.string.painting, 172, R.drawable.painting),
         Topic(R.string.photography, 321, R.drawable.photography),
         Topic(R.string.tech, 118, R.drawable.tech)
+    )
+
+    val heroes = listOf(
+        Hero(
+            nameRes = R.string.hero1,
+            descriptionRes = R.string.description1,
+            imageRes = R.drawable.android_superhero1
+        ),
+        Hero(
+            nameRes = R.string.hero2,
+            descriptionRes = R.string.description2,
+            imageRes = R.drawable.android_superhero2
+        ),
+        Hero(
+            nameRes = R.string.hero3,
+            descriptionRes = R.string.description3,
+            imageRes = R.drawable.android_superhero3
+        ),
+        Hero(
+            nameRes = R.string.hero4,
+            descriptionRes = R.string.description4,
+            imageRes = R.drawable.android_superhero4
+        ),
+        Hero(
+            nameRes = R.string.hero5,
+            descriptionRes = R.string.description5,
+            imageRes = R.drawable.android_superhero5
+        ),
+        Hero(
+            nameRes = R.string.hero6,
+            descriptionRes = R.string.description6,
+            imageRes = R.drawable.android_superhero6
+        )
     )
 }
