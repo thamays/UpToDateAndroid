@@ -13,7 +13,7 @@
         android:theme="@style/Theme.UpToDateAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".unit_04.viewmodel.ViewModelActivity"
+            android:name=".unit_04.viewmodel2.ViewModelActivityV2"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.UpToDateAndroid"
