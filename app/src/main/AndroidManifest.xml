@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,7 +15,7 @@
         android:theme="@style/Theme.UpToDateAndroid"
         tools:targetApi="31">
         <activity
-            android:name=".unit_04.navigate2.NavigateActivityV2"
+            android:name=".unit_04.dynamic_navigation.DynamicNavigationActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.UpToDateAndroid"
