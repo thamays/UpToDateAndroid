@@ -303,4 +303,7 @@
         link.
     </string>
     <string name="email_11_time">3 hours ago</string>
+
+    <string name="email_already_in_use">Email already in use</string>
+    <string name="network_error">Network error</string>
 </resources>
