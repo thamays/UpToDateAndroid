@@ -306,4 +306,13 @@
 
     <string name="email_already_in_use">Email already in use</string>
     <string name="network_error">Network error</string>
+
+    <string name="race_tracker">Race tracker</string>
+    <string name="run_a_race">Run a race</string>
+    <string name="pause">Pause</string>
+    <string name="start">Start</string>
+    <string name="reset">Reset</string>
+    <string name="progress_percentage">%1$d%%</string>
+    <string name="player_one_name">Player 1</string>
+    <string name="player_two_name">Player 2</string>
 </resources>
