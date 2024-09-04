@@ -1,6 +1,6 @@
 package com.thamays.uptodateandroid.learn_kotlin
 
-/* The main() function doesn't actually get called anywhere in your code;
+/* The com.thamays.uptodateandroid.interview.persistent.main() function doesn't actually get called anywhere in your code;
  the Kotlin compiler uses it as a starting point. */
 fun main() {
     test(20, true)
